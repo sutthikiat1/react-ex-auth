@@ -10,10 +10,6 @@ function Dashboard() {
     localStorage.removeItem("token");
   };
 
-  useEffect(() => {
-    console.log("hello");
-  }, []);
-
   return (
     <div>
       <Navbar />
